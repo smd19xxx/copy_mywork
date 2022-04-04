@@ -185,14 +185,14 @@ textarea{
 }
 
 /* footer */
-.footer{
+footer{
     height: 35px;
     background-color: #24292e;
     color: #fff;
     text-align: center;
 }
 
-.footer p{
+footer p{
     line-height: 35px;
     font-size: 9px;
 }
