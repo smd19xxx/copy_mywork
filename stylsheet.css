@@ -8,8 +8,9 @@ a{
 }
 
 .container{
-    width: 850px;
+    max-width: 850px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .heading{
@@ -19,8 +20,11 @@ a{
 }
 
 /* header */
-header{
+header .container{
     height: 270px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
 }
 
 .header-left{
@@ -28,11 +32,8 @@ header{
     padding: 117px 0 120px;
 }
 
-.header-right{
-    padding: 126px 0 120px;
-}
-
 .header-menu{
+    padding: 126px 0 120px;
     display: flex;
     float: right;
 }
@@ -101,6 +102,7 @@ header{
 
 .works{
     margin-bottom: 40px;
+    max-width: 100%;
 }
 
 .phot_list{
@@ -115,6 +117,7 @@ header{
 }
 
 .news{
+    max-width: 100%;
     margin-bottom: 45px;
 }
 
@@ -143,6 +146,7 @@ header{
 }
 
 .form{
+    max-width: 100%;
     display: flex;
 }
 
